@@ -29,7 +29,7 @@
    ```
 
 4. **Βήμα 4:** Πειραματισμός με τεχνικές πρόβλεψης  
-   - Με Logistic Regression:  
+   - Link Prediction μέσω Proximity Metrics:  
      ```bash
      python prediction/02_proximity_link_prediction.py
      ```
@@ -46,10 +46,10 @@
 pip install -r requirements.txt
 ```
 
-> Βεβαιώσου ότι έχεις εγκαταστήσει `torch` και `torch_geometric` κατάλληλα για το σύστημά σου (CPU ή GPU).
-
 ## Output
 
 - Αποτελέσματα (confusion matrix, ROC curves, κλπ.) αποθηκεύονται στον φάκελο `diagrams/`.
-- Dataset link prediction αποθηκεύεται ως pickle (`link_dataset.pkl`).
+- Dataset link prediction αποθηκεύεται ως pickle (`link_dataset.pkl`) στον φάκελο `data/`.
+- Οι παραγόμενοι γράφοι (σε μορφή .gexf) αποθηκεύονται στον φάκελο `graphs/`.
 
+>*Αναπτύχθηκε αποκλειστικά για εκπαιδευτικούς σκοπούς.*
