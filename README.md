@@ -49,7 +49,7 @@ pip install -r requirements.txt
 ## Output
 
 - Αποτελέσματα (confusion matrix, ROC curves, κλπ.) αποθηκεύονται στον φάκελο `diagrams/`.
-- Dataset link prediction αποθηκεύεται ως pickle (`link_dataset.pkl`) στον φάκελο `data/`.
+- Το dataset link prediction αποθηκεύεται ως pickle (`link_dataset.pkl`) στον φάκελο `data/`.
 - Οι παραγόμενοι γράφοι (σε μορφή .gexf) αποθηκεύονται στον φάκελο `graphs/`.
 
 >*Αναπτύχθηκε αποκλειστικά για εκπαιδευτικούς σκοπούς.*
