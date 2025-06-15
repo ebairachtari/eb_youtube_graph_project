@@ -2,12 +2,14 @@
 
 ## Περιγραφή
 Αυτό το project περιλαμβάνει την ανάλυση γράφου του YouTube και την πρόβλεψη ακμών με δύο διαφορετικές τεχνικές: proximity-based χαρακτηριστικά και Graph Neural Networks (GNN).
-Τα δεδομένα που χρησιμοποίησα βρίσκονται στο αρχείο 0222.zip από το [Youtube Dataset](https://netsg.cs.sfu.ca/youtubedata)
+Τα δεδομένα που χρησιμοποίησα βρίσκονται στο αρχείο 0222.zip από το [Youtube Dataset](https://netsg.cs.sfu.ca/youtubedata) .
 
 ## Δομή Φακέλων
 
 - `analysis/`: Ανάλυση του γράφου (degree, centrality, shortest paths)
 - `prediction/`: Δημιουργία dataset πρόβλεψης και εφαρμογή δύο μοντέλων:
+   - Link Prediction μέσω Proximity Metrics
+   - Graph Neural Networks (GNNs)
 
 ## Εκτέλεση
 
